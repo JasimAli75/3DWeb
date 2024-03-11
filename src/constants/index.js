@@ -33,7 +33,7 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+  // yourlogo,
 } from "../assets";
 
 export const navigation = [
@@ -75,7 +75,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -128,13 +128,13 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter with AI.";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
+    text: "AI technologies can seamlessly integrate into existing systems and workflows, facilitating smooth transitions  across platforms",
   },
   {
     id: "1",
@@ -210,9 +210,9 @@ export const pricing = [
     id: "0",
     title: "Basic",
     description: "AI chatbot, personalized recommendations",
-    price: "0",
+    price: "9.99",
     features: [
-      "An AI chatbot that can understand your queries",
+      "An advanced AI chatbot designed to comprehensively understand and respond to your inquiries with precision and efficiency.",
       "Personalized recommendations based on your preferences",
       "Ability to explore the app and its features without any cost",
     ],
@@ -221,7 +221,7 @@ export const pricing = [
     id: "1",
     title: "Premium",
     description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    price: "19.99",
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
@@ -232,7 +232,7 @@ export const pricing = [
     id: "2",
     title: "Enterprise",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    price: "69.99",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -245,15 +245,15 @@ export const benefits = [
   {
     id: "0",
     title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "The AI chatbot is a global knowledge source it can gives you answer of your any question.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Improve Understanding",
+    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses in simple language.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,7 +261,7 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
+    title: "Global Connect",
     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
@@ -269,8 +269,8 @@ export const benefits = [
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Quick response",
+    text: "Lets users quickly find answers to their questions in one platform without having to search through multiple sources.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +278,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Increased Safety",
+    text: " AI-enabled systems can enhance safety in various domains, including autonomous vehicles, cybersecurity, and surveillance.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Enhanced Healthcare",
+    text: "AI technologies such as machine learning and image recognition can assist healthcare professionals in diagnosing diseases.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

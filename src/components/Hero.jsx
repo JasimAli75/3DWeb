@@ -25,10 +25,10 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `}
             <span className="inline-block relative">
-              Brainwave{" "}
+              Genisis-AI{" "}
               <img
                 src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
+                className="absolute top-full left-2 w-full xl:-mt-2"
                 width={624}
                 height={28}
                 alt="Curve"
@@ -36,10 +36,10 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Brainwave. Upgrade your productivity
-            with Brainwave, the open AI chat app.
+            Unleash the power of AI within Genisis-AI. Upgrade your productivity
+            with Genisis-AI, the open AI chat app.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/Pricing" white>
             Get started
           </Button>
         </div>
@@ -72,7 +72,7 @@ const Hero = () => {
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    title="PIAIC Coder Team"
                   />
                 </ScrollParallax>
               </div>
